@@ -21,7 +21,7 @@ import {
   accessTokenCookieExpiresAt,
   refreshTokenExpiresAt,
 } from "../config/token";
-import { User } from "../models/user";
+import { User } from "../models/User";
 
 //SIGN UP
 const signUp = asyncHandler(async function signUp(req: Request, res: Response) {
