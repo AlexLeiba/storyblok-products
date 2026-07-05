@@ -9,7 +9,7 @@ import dotenv from "dotenv";
 dotenv.config();
 
 import { errorHandler } from "./middleware/errorHandler.js";
-import { sendError } from "./utils/responseHelpers";
+import { sendError } from "./utils/responseHelpers.js";
 
 import { requireAuth } from "./middleware/authMiddleware";
 

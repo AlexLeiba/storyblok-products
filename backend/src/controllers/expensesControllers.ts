@@ -1,5 +1,9 @@
 import { type Request, type Response } from "express";
-import { asyncHandler, sendError, sendSuccess } from "../utils/responseHelpers";
+import {
+  asyncHandler,
+  sendError,
+  sendSuccess,
+} from "../utils/responseHelpers.js";
 import {
   createExpenseSchema,
   getAllExpensesQuerySchema,

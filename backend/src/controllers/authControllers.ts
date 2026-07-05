@@ -1,6 +1,10 @@
 import type { Response, Request } from "express";
 import type { AuthResponse } from "../types";
-import { asyncHandler, sendError, sendSuccess } from "../utils/responseHelpers";
+import {
+  asyncHandler,
+  sendError,
+  sendSuccess,
+} from "../utils/responseHelpers.js";
 import {
   signupSchema,
   signinSchema,

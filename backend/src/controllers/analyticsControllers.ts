@@ -2,7 +2,11 @@ import { Expense } from "../models/Expense";
 import type { DashboardStatsType, MonthlyTotalType } from "../types";
 import { getCurrentMonth } from "../utils/getCurrentMonth";
 import { getMonthString } from "../utils/getMonthString";
-import { asyncHandler, sendError, sendSuccess } from "../utils/responseHelpers";
+import {
+  asyncHandler,
+  sendError,
+  sendSuccess,
+} from "../utils/responseHelpers.js";
 import { type Request, type Response } from "express";
 
 const getExpensesByCategories = asyncHandler(

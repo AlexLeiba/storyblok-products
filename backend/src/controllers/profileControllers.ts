@@ -1,6 +1,10 @@
 import type { Response, Request } from "express";
-import type { AuthResponse, UserType } from "../types";
-import { asyncHandler, sendError, sendSuccess } from "../utils/responseHelpers";
+import type { AuthResponse } from "../types";
+import {
+  asyncHandler,
+  sendError,
+  sendSuccess,
+} from "../utils/responseHelpers.js";
 import { DEFAULT_VALIDATION_ERROR_MESSAGE } from "../consts/consts";
 import { updateProfileSchema } from "../schemas/profile";
 import { User } from "../models/User";
