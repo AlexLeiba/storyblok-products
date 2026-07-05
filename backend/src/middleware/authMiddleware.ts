@@ -1,6 +1,6 @@
 import type { Request, Response, NextFunction } from "express";
 import dotenv from "dotenv";
-import { decodeAccessToken } from "../utils/generateTokens";
+import { decodeAccessToken } from "../utils/generateTokens.js";
 dotenv.config();
 
 declare global {

@@ -20,7 +20,7 @@ import {
   decodeRefreshToken,
   generateAccessToken,
   generateRefreshToken,
-} from "../utils/generateTokens";
+} from "../utils/generateTokens.js";
 import {
   accessTokenCookieExpiresAt,
   refreshTokenExpiresAt,
