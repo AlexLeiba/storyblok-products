@@ -8,7 +8,7 @@ import cookieParser from "cookie-parser";
 import dotenv from "dotenv";
 dotenv.config();
 
-import { errorHandler } from "./middleware/errorHandler";
+import { errorHandler } from "./middleware/errorHandler.js";
 import { sendError } from "./utils/responseHelpers";
 
 import { requireAuth } from "./middleware/authMiddleware";
