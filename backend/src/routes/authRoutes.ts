@@ -8,7 +8,6 @@ import {
   resetPassword,
   refreshToken,
 } from "../controllers/authControllers";
-import { requireAuth } from "../middleware/authMiddleware";
 
 // route definitions
 // Here we keep route definitions/ route listeners

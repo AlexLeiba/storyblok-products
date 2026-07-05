@@ -11,7 +11,7 @@ dotenv.config();
 import { errorHandler } from "./middleware/errorHandler.js";
 import { sendError } from "./utils/responseHelpers.js";
 
-import { requireAuth } from "./middleware/authMiddleware";
+import { requireAuth } from "./middleware/authMiddleware.js";
 
 // ROUTE DEFINITIONS
 import expensesRoutes from "./routes/expensesRoutes";
